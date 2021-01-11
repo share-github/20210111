@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/tableLayout.css" />
+    <title>table layout</title>
+  </head>
+  <body>
+    <input type="text" id="keyword" placeholder="検索ワードを入力" />
+    <table id="users">
+      <thead>
+        <tr>
+          <th class="user-contents">id</th>
+          <th class="user-contents">name</th>
+          <th class="url-contents">url1</th>
+          <th class="url-contents">url2</th>
+          <th class="url-contents">url3</th>
+          <th class="url-contents">url4</th>
+        </tr>
+      </thead>
+      <tbody id="usersData"></tbody>
+    </table>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/usersData.js"></script>
+    <script src="./js/tableLayout.js"></script>
+  </body>
+</html>
